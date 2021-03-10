@@ -28,14 +28,19 @@ public class Main {
                 .setTamaño(2)
                 .build();
 
+
+        Pizza hawaiana = new PizzaBuilder().setTipoMasa("fina")
+                .setTamaño(Pizza.FAMILIAR)
+                .setCebolla(false)
+                .setChampiñones(true)
+                .setExtraQueso(true)
+                .setPiña(true)
+                .setJamon(true)
+                .build();
+
+        System.out.println(base);
+        System.out.println(hawaiana);
     }
-    Pizza hawaiana = new PizzaBuilder().setTipoMasa("fina")
-            .setTamaño(Pizza.FAMILIAR)
-            .setCebolla(false)
-            .setChampiñones(true)
-            .setExtraQueso(true)
-            .setPiña(true)
-            .setJamon(true)
-            .build();
+
 
 }
