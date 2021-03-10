@@ -29,5 +29,13 @@ public class Main {
                 .build();
 
     }
+    Pizza hawaiana = new PizzaBuilder().setTipoMasa("fina")
+            .setTamaño(Pizza.FAMILIAR)
+            .setCebolla(false)
+            .setChampiñones(true)
+            .setExtraQueso(true)
+            .setPiña(true)
+            .setJamon(true)
+            .build();
 
 }
